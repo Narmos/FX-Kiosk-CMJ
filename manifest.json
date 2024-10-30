@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "FX Kiosk Collection Musée Jenisch",
+    "version": "1.0",
+    "description": "Clavier virtuel et boutons retour/accueil sur toutes les pages web",
+    "background": {
+        "scripts": ["bg-keyboard.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["keyboard.js", "navlinks.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["icons/previous.png", "icons/home.png"],
+            "matches": [ "*://*/*" ]
+        }
+    ],
+    "permissions": [
+        "webRequest",
+        "tabs",
+		"storage",
+        "activeTab",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+	"options_ui": {
+		"page": "options/options.html"
+	},
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "fx-kiosk-cmj@narmos.ch"
+        }
+    }
+
+}

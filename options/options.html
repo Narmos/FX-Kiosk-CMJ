@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+	  <form>
+		  <label>Echelle du clavier à l'écran en %</label>
+		  <input type="number" value="75" max="100" min="10" id="scaleValue" name="scaleValue"/>
+		  <br/><br/>
+		  <label>Pavé numérique</label>
+		  <select id="numpadState" name="numpadState">
+			  <option value="auto" selected>Sélection automatique</option>
+			  <option value="disabled">Désactivé</option>
+			  <option value="always">Toujours utiliser le pavé numérique (reste du clavier désactivé)</option>
+		  </select>
+		  <br/><br/>
+	  </form>
+	  <script src="options.js"></script>
+  </body>
+</html>
