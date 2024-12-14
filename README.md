@@ -25,4 +25,4 @@ Boutons de navigation `Retour` et `Accueil` qui permettent de revenir en arrièr
 
 - Permettre de choisir le page d'accueil depuis les options de l'extension qui se répercutera sur les boutons `Accueil` du clavier et de la navigation.
 - Permettre de désactivé les boutons de navigation depuis les options de l'extension.
-- Supprimer tous les `target="_blank"` des liens dans les pages
+- Supprimer tous les `target="_blank"` des liens dans les pages plutôt que d'utiliser l'extension dédiée [No Target Blank](https://addons.mozilla.org/fr/firefox/addon/no-target-blank/)
