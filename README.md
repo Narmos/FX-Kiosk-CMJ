@@ -1,7 +1,5 @@
 # FX-Kiosk-CMJ
-Extension Firefox pour borne kiosk tactile au Musée Jenisch
-
-La borne tourne sur Ubuntu 24.04 LTS avec la session gnome-kiosk qui lance Firefox en mode kiosk.
+Extension pour navigateur web Firefox spécifique pour la consultation de la [collection en ligne](https://collection.museejenisch.ch) du Musée Jenisch via une borne tactile en mode kiosk.
 
 # Fonctionnalités
 
